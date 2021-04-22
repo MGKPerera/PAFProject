@@ -8,6 +8,7 @@ import java.sql.Statement;
 
 public class Project {
 
+	// DB connection
 	private Connection connect() {
 		Connection con = null;
 		try {
